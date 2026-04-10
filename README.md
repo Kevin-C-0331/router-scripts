@@ -1,25 +1,31 @@
-router-scripts
-Scripts for GL-iNet BE3600 router.
+# router-scripts
 
+Scripts for GL-iNet BE3600 router.  
 GL-iNet BE3600 路由器专用脚本。
 
-📦 介绍（Introduction）
-本项目收集了适用于 GL-iNet BE3600 路由器的实用脚本，方便进行系统安装、管理和维护操作。
+---
 
+## 📦 介绍（Introduction）
+
+本项目收集了适用于 GL-iNet BE3600 路由器的实用脚本，方便进行系统安装、管理和维护操作。  
 A collection of useful scripts for GL-iNet BE3600 router to simplify installation and management.
 
-🚀 脚本说明（Scripts）
-文件名	功能简介
-be3600-install.sh	一键刷机或环境搭建
+---
 
-⚡ 使用方法（Usage）
-下载脚本
+## 🚀 脚本说明（Scripts）
 
-点击 Code -> Download ZIP 或用 git 克隆：
+| 文件名            | 功能简介           |
+|-------------------|--------------------|
+| `gl-be3600.sh`    | 一键刷机或环境搭建  |
 
-<BASH>
-git clone https://github.com/kevin-c-0331/router-scripts.git
-上传脚本到路由器
+---
+
+## ⚡ 一键运行（推荐方式）
+
+1. **SSH连接到路由器，或者在路由器终端执行如下命令：**
+
+    ```sh
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/Kevin-C-0331/router-scripts/main/gl-be3600.sh)"
 
 可用 SCP、WinSCP 等方式。
 
